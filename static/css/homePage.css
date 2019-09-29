@@ -1,0 +1,954 @@
+
+@font-face {
+                          font-family: "SFProText-Semibold";
+                          src: url('../fonts/SF-Pro-Text-Semibold.otf') format("opentype");
+                        }
+                        
+.homepage {
+  width               : 100%;
+  /*min-width           : 1366px;*/
+  /*height              : 100vh;*/
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(161, 205, 115, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.homepage .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 198px;
+  height              : 378px;
+  width               : 378px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 378px;
+  width               : 378px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group .a20minutes {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 252px;
+  height              : auto;
+  width               : 246px;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 38.0px;
+  color               : rgba(65, 4, 252, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.homepage .rectangle {
+  background-color    : rgba(241, 241, 212, 1.0);
+  top                 : 351px;
+  height              : 73px;
+  box-sizing          : border-box;
+  width               : 1372px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  border-style        : solid;
+  border-width        : 5px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .approximatewaittim {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 373px;
+  height              : auto;
+  width               : 566px;
+  position            : absolute;
+  margin              : 0;
+  left                : 402px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(8, 8, 8, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.homepage .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 612px;
+  height              : 91px;
+  width               : 251px;
+  position            : absolute;
+  margin              : 0;
+  left                : 524px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group4 .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 91px;
+  width               : 253px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group4 .rectanglecopy2 {
+  background-color    : rgba(198, 198, 183, 1.0);
+  top                 : 5px;
+  height              : 59px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group4 .yellow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 173px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.homepage .group4 .a3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(82, 72, 72, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.homepage .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 235px;
+  height              : auto;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 552px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(252, 151, 4, 1.0);
+  text-align          : center;
+  line-height         : 48.0px;
+}
+.homepage .a2 .span1 {
+  line-height         : 58.0px;
+}
+.homepage .a2 .span2 {
+  font-size           : 90.0px;
+  line-height         : 108.0px;
+}
+.homepage .currentrankinqueu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 113px;
+  height              : auto;
+  width               : 509px;
+  position            : absolute;
+  margin              : 0;
+  left                : 435px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 38.0px;
+  color               : rgba(84, 82, 90, 1.0);
+  text-align          : center;
+  line-height         : 45.0px;
+}
+.homepage .moreinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 682px;
+  height              : auto;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 484px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(65, 4, 252, 1.0);
+  text-align          : center;
+  line-height         : 26.0px;
+}
+.homepage .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 706px;
+  height              : 3px;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 572px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 787px;
+  height              : 112px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 400px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 787px;
+  height              : 112px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 560px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 787px;
+  height              : 112px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 720px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 787px;
+  height              : 112px;
+  width               : 112px;
+  position            : absolute;
+  margin              : 0;
+  left                : 880px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .patientinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 919px;
+  height              : auto;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 380px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 23.0px;
+}
+.homepage .rectangle1 {
+  background-color    : rgba(252, 152, 4, 1.0);
+  top                 : 897px;
+  height              : 4px;
+  width               : 1366px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .uploadmedicalrepor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 915px;
+  height              : auto;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : 501px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.homepage .uploadmedicalrepor .span1 {
+  line-height         : 23.0px;
+}
+.homepage .uploadmedicalrepor .span2 {
+  font-size           : 23.0px;
+  line-height         : 28.0px;
+}
+.homepage .hospitalinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 915px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 855px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.homepage .hospitalinformation .span1 {
+  line-height         : 23.0px;
+}
+.homepage .hospitalinformation .span2 {
+  font-size           : 23.0px;
+  line-height         : 28.0px;
+}
+.homepage .preventinfection {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 915px;
+  height              : auto;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 695px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 19.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 19.0px;
+}
+.homepage .preventinfection .span1 {
+  line-height         : 23.0px;
+}
+.homepage .preventinfection .span2 {
+  font-size           : 23.0px;
+  line-height         : 28.0px;
+}
+.homepage .group11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 810px;
+  height              : 66px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 743px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 66px;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 6px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 7px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 34px;
+  height              : 4px;
+  width               : 7px;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 7px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group11 .fill10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 4px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 813px;
+  height              : 60px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 916px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 .fill5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 .fill6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 .fill7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 60px;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group9 .fill8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 9px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 817px;
+  height              : 53px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 597px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 9px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 50px;
+  width               : 38px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 1px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 1px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 .fill5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 1px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 .fill6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 1px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 .fill7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 1px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group91 .fill8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 1px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 617px;
+  height              : 59px;
+  width               : 540px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 817px;
+  height              : 56px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 435px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group8 .fill1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group8 .fill2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 25px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group8 .fill3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 1px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group8 .fill4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 1px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group8 .fill5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 41px;
+  height              : 1px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group8 .fill6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 42px;
+  height              : 1px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .group8 .fill7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 1px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.homepage .emergencylevel {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 630px;
+  height              : auto;
+  width               : 239px;
+  position            : absolute;
+  margin              : 0;
+  left                : 294px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "SFProText-Semibold", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
